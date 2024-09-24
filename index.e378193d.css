@@ -1,0 +1,164 @@
+.card {
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  padding: 32px 16px 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.card__image {
+  width: 160px;
+  height: 134px;
+  margin: 0 auto 40px;
+  display: block;
+}
+
+.card__details_name {
+  color: #060b35;
+  width: 100%;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 550;
+  line-height: 18px;
+  display: block;
+}
+
+.card__details_product_code {
+  color: #616070;
+  margin-bottom: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14.2px;
+}
+
+.card__rating {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.card__rating_reviews {
+  color: #060b35;
+  margin-top: 1%;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__price {
+  justify-content: space-between;
+  align-items: center;
+  height: 18px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.card__price_title {
+  color: #616070;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__price_price {
+  color: #060b35;
+  font-size: 16.3px;
+  font-weight: 800;
+  line-height: 18px;
+  display: inline-block;
+}
+
+.card__button {
+  box-sizing: border-box;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+}
+
+.stars {
+  box-sizing: border-box;
+  height: 16px;
+  margin: 0;
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star-active.2be54011.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  background-image: url("star.fa806e3c.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  vertical-align: baseline;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
